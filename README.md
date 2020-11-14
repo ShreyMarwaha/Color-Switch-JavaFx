@@ -1,1 +1,6 @@
 # Color-Switch-JavaFx
+JDK 13
+JavaFX 15.0.1
+
+SHREY MARWAHA | 2019334
+ARNAV GUPTA   | 2019299
