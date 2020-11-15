@@ -1,1 +1,1 @@
-Put these files in IdeaProject/<JavaFX project name>/src/sample
+Put these files in IdeaProject/(JavaFX project name)/src/sample
