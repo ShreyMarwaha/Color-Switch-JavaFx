@@ -1,1 +1,1 @@
-Put these files in IdeaProject/src/sample
+Put these files in (IntelliJ Project)/src/sample
