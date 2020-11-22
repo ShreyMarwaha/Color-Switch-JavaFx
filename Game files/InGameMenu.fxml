@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="InGamePauseMenu" prefHeight="644.0" prefWidth="380.0" style="-fx-background-color: #292929;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Player">
+   <children>
+      <Text fill="WHITE" layoutX="98.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PAUSE">
+         <font>
+            <Font size="63.0" />
+         </font>
+      </Text>
+      <Text fill="#fb0484" fontSmoothingType="LCD" layoutX="30.0" layoutY="159.0" scaleX="2.5" strokeType="OUTSIDE" strokeWidth="0.0" text="_" wrappingWidth="39.84375">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Text>
+      <Button layoutX="153.0" layoutY="291.0" mnemonicParsing="false" onAction="#save" stylesheets="@Styles.css" text="SAVE GAME" />
+      <Button fx:id="quit" layoutX="126.0" layoutY="376.0" mnemonicParsing="false" onAction="#quitToMainMenu" stylesheets="@Styles.css" text="QUIT TO MAIN MENU" />
+      <Button fx:id="ResumePlay" layoutX="162.0" layoutY="462.0" mnemonicParsing="false" onAction="#back" stylesheets="@Styles.css" text="RESUME" />
+      <Text fill="#8c14fb" fontSmoothingType="LCD" layoutX="126.0" layoutY="159.0" scaleX="2.5" strokeType="OUTSIDE" strokeWidth="0.0" text="_" wrappingWidth="39.84375">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Text>
+      <Text fill="#35e2f2" fontSmoothingType="LCD" layoutX="321.0" layoutY="159.0" scaleX="2.5" strokeType="OUTSIDE" strokeWidth="0.0" text="_" wrappingWidth="39.84375">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Text>
+      <Text fill="#f5df0f" fontSmoothingType="LCD" layoutX="223.0" layoutY="159.0" scaleX="2.5" strokeType="OUTSIDE" strokeWidth="0.0" text="_" wrappingWidth="39.84375">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Text>
+      <Text fill="#585757" layoutX="12.0" layoutY="53.0" onMouseClicked="#back" rotate="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+">
+         <font>
+            <Font size="74.0" />
+         </font>
+      </Text>
+      <Text fx:id="GameSavedDone" fill="#04cf0f" fontSmoothingType="LCD" layoutX="77.0" layoutY="575.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GAME SAVED!" visible="false">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
